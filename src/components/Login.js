@@ -4,7 +4,10 @@ import "./Login.css";
 import { Button, Checkbox, Form } from 'semantic-ui-react';
 
 const Login = () => (
-  <Form>
+  <Form style={{maxWidth:"280px", 
+  margin: "20px", 
+  justifyContent: "center",
+  alignItems: "center"}}>
     <Form.Field>
       <label>First Name</label>
       <input placeholder='First Name' />
